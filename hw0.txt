@@ -1,3 +1,22 @@
 # Description of your program (part 7)
+1. Locate the document
+2. Open up the document
+3. Read in the document
+4. Identify if there are any lines in the document, or if it is empty. If empty, return 0 words.
+5. Retrieve the first line of the document
+6. Use a counter to count the number of words in the document, as identified by spaces
+7. For each word identified, increase the counter by one
+8. Retrieve the next line in the document and repeat step 7
+9. Once there are no more lines remaining in the document, return the value of the counter as the result
 
 # Reflection on writing your program (part 8)
+It wasn’t necessarily difficult compared to say, something like math, but it was draining. In fact, there
+are still lots of possibilities to account for that I did not tackle. For instance, different languages,
+different separators, typos, etc. It was unsatisfying to describe the instructions in English, as it
+felt like there was a lot of work being put into describing a seemingly straightforward task.
+
+What I’d like to get out of the course is to sharpen my programming skills to the point that I’m
+comfortable with making scripts and creating programs that utilize various APIs. JSON and XML
+processing would also be helpful. I don’t expect to go into a programming-intensive career in
+the future, but I do think having a moderate amount of technical knowledge and good scripting
+capabilities will help out a lot down the road.

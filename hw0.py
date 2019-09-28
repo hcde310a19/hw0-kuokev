@@ -36,30 +36,32 @@ def hello():
 
 hello()
 print("... Let's say that again... \n")
-hello()
 
 # Step 2: Now try deleting the second hello(). Save the file.
 # Run the program again to see the results.
+# Result: Print statements within hello method are outputted once instead of twice.
 
 # Step 3: Now insert "hello()" back into the editor buffer
 # below this line. Try using the auto-complete feature. After
 # you type "hel", possible completions should appear.
 # Use the arrow keys or the mouse to select, and hit enter.
+hello()
 
 # Save the file. Run it again to see the results.
+# Result: Hello method returns to original where strings are outputted twice.
 
 # Step 4: Now, try a Python program that uses variables. Uncomment
 # the lines below, by removing the # at the start of each line. Fill
 # in the values for length, width, height, and your name.
 # Then save and run the program again.
 
-# length = 0
-# width = 0
-# height = 0
-#
-# me = "<your name here>"
-# print("Volume =", width * length * height)
-# print("My name is", me)
+length = 98
+width = 39
+height = 73
+
+me = "Kevin Kuo"
+print("Volume =", width * length * height)
+print("My name is", me)
 
 # Step 5: You can also run Python programs in PyCharm as well.
 # In PyCharm, click File and then New Project. Make sure the
